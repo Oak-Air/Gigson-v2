@@ -1,0 +1,78 @@
+.TestimonialCard{
+	width: 302px;
+	height: 393px;
+	position: relative;
+	box-shadow: 0px 14px 24px rgba(188, 188, 188, 0.25);
+	border-radius: 10px;
+	margin: 5px;
+	overflow: hidden;
+	transition: all 0.8s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.TestimonialCard:nth-child(1){
+	background: url('../images/light-blue-background.svg');
+	background-size: cover;
+}
+.TestimonialCard:nth-child(2){
+	background: url('../images/yellow-background.svg');
+	background-size: cover;
+}
+.TestimonialCard:nth-child(3){
+	background: url('../images/purple-background.svg');
+	background-size: cover;
+}
+
+.TestimonialText{
+	position: absolute;
+	top: 46px;
+	left: 33px;
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	font-family: "Bai Jamjuree", sans-serif;
+}
+
+.TestimonialCard img{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	z-index: 0;
+}
+
+.TestifierName{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Karla", sans-serif;
+	margin-top: 28px;
+}
+.TestifierDetails{
+	display: inline-block;
+	font-family: "Karla", sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin-top: 6px;
+	color: rgba(255,255,255,0.64);
+}
+
+.TestifierDetails span{
+}
+
+.TestifierDetails span:before{
+	content: ', ';
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+.Read{
+	position: absolute;
+	bottom: 68px;
+	left: 32px;
+	font-family: "Bai Jamjuree", sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	z-index: 1;
+}
