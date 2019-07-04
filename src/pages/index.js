@@ -11,7 +11,7 @@ import logo from "../images/logo.svg"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="HeroSection container">
+    <div className="HeroSectionMain container">
       <div className="HeroCopy">
         <h1>The “expert talent” hiring process that won’t stress you.</h1>
         <p>Gigson helps you hire top performing developers that are 100% driven to helping your business grow.</p>

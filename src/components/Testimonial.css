@@ -17,11 +17,36 @@
 	background: url('../images/yellow-background.svg');
 	background-size: cover;
 }
+
+.ThriveAgricContent .TestimonialCard:nth-child(1){
+	background: url('../images/yellow-background.svg');
+	background-size: cover;
+}
+.ThriveAgricContent .TestimonialCard:nth-child(2){
+	background: url('../images/purple-background.svg');
+	background-size: cover;
+}
+.ScholableContent .TestimonialCard:nth-child(2){
+	background: url('../images/purple-background.svg');
+	background-size: cover;
+}
+.ThriveAgricContent .TestimonialCard:nth-child(2) img{
+	width: 340px;
+	left: 22px;
+}
+.ScholableContent .TestimonialCard:nth-child(2) img{
+	width: 340px;
+	left: 22px;
+}
 .TestimonialCard:nth-child(3){
 	background: url('../images/purple-background.svg');
 	background-size: cover;
 }
+.TestimonialCard:nth-child(3) img{
+	width: 340px;
+	left: 22px;
 
+}
 .TestimonialText{
 	position: absolute;
 	top: 46px;
@@ -35,9 +60,10 @@
 
 .TestimonialCard img{
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	top: 150px;
+	left: 72px;
 	z-index: 0;
+	width: 250px;
 }
 
 .TestifierName{
@@ -76,3 +102,5 @@
 	text-decoration: none;
 	z-index: 1;
 }
+
+

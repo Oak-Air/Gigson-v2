@@ -282,3 +282,79 @@ a.PrimaryButtonWhite{
   text-decoration: none;
   color: #718AA8;
 }
+
+.HeroSection{
+  width: 94%;
+  margin: 0 auto;
+  max-width: 990px;
+  border-radius: 10px;
+  box-shadow: 0px 14px 24px rgba(188, 188, 188, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 180px 0px 100px;
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+
+
+.HeroSection .TestifierName{
+  font-weight: bold;
+  color: white; 
+}
+.HeroSection .TestifierPosition{
+  font-weight: regular;
+  color: rgba(255, 255, 255, 0.64);
+}
+.HeroSection .Content{
+  width: 60%;
+  max-width: 414px;
+  color: white;
+}
+
+.HeroSection.ThriveAgric{
+  background: url('../images/light-blue-background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HeroSection.Scholable{
+  background: url('../images/yellow-background.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HeroSection.Swipemax{
+  background: url('../images/purple-background.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.StoryContent{
+  width: 70%;
+  max-width: 665px;
+  margin: 0 auto;
+  color: #001833;
+}
+.StoryContent h2{
+    margin-bottom: 23px;
+}
+.StoryContent .ContentBlock{
+  margin-bottom: 60px;
+}
+.StoryContent .ContentBlock p{
+    font-size: 18px;
+    line-height: 162%;
+    margin-bottom: 30px;
+}
+
+.CaseStudies{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}

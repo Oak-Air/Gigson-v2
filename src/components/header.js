@@ -6,7 +6,7 @@ import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <div className="Header">
-  <img alt="Gigson" className="logo" src={logo}/>
+  <Link to="/"><img alt="Gigson" className="logo" src={logo}/></Link>
   <ul className="NavItems">
   <li><Link to="#Testimonials">Testimonials</Link></li>
   <li><a href="https://gigson.co/jobs">Find a job</a></li>
