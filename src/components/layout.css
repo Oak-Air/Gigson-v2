@@ -26,16 +26,32 @@ h2{
 h4{
   font-size: 18px;
 }
+.activeLink{
+  color: #001833 !important;
+}
 .BodyText{
   font-size: 18px;
 }
-
+::selection{
+  color: #303F4F;
+  background: #EFF2F5;
+}
 .container{
   width: 94%;
   max-width: 990px;
   margin: 0 auto;
 }
 
+.HeroSectionMain{
+  position: relative;
+  padding-top: 70px;
+}
+.HeroImage{
+  position: absolute;
+  right: 0%;
+  top: -25%;
+  z-index: -1;
+}
 .HeroCopy{
   max-width: 600px;
 }
@@ -64,7 +80,7 @@ h4{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 80%;
+  max-width: 90%;
 
 }
 
@@ -102,6 +118,7 @@ a.PrimaryButton{
   color: white;
   text-decoration: none;
   background: #268DFE;
+  margin-top: 15px;
   padding: 23px 48px;
   box-shadow: 0px 10px 14px rgba(77, 162, 254, 0.16);
   border-radius: 50px;
@@ -109,6 +126,16 @@ a.PrimaryButton{
   font-weight: bold;
   text-transform: lowercase;
   font-variant: small-caps;
+}
+
+.Comparison a.PrimaryButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 10em;
+}
+.Comparison a.PrimaryButton img{
+  margin-left: 5px;
 }
 
 a.PrimaryButtonWhite{
@@ -145,10 +172,10 @@ a.PrimaryButtonWhite{
 
 }
 .Way{
-  width: 40%;
+  width: 42%;
   min-width: 200px;
   max-width: 720px;
-  padding: 50px 60px 80px 60px;
+  padding: 50px;
 }
 .OldWay{
   background: #F9F9F9;
@@ -157,13 +184,14 @@ a.PrimaryButtonWhite{
   text-align: right;
 }
 .OldWay .Bubble{
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 .NewWay{
   background: #FAFCFF;
 }
 .NewWay .Bubble{
   align-self: flex-start;
+  justify-content: flex-end;
   flex-direction: row-reverse;
 }
 .NewWay .Bubble img{
@@ -213,11 +241,13 @@ a.PrimaryButtonWhite{
 
 .HelpMeasures{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .HelpMeasure{
   width: 302px;
+  min-width: 250px;
 }
 
 .HelpMeasure h4{
@@ -232,13 +262,14 @@ a.PrimaryButtonWhite{
 }
 
 .SubFooter{
-  width: 100%;
+  width: auto;
   background: #268DFE;
-  padding: 95px 0px 140px 0px;
+  padding: 95px 15px 140px 15px;
 }
 
 .SmallContainer{
-  width: 500px;
+  max-width: 500px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
@@ -285,6 +316,7 @@ a.PrimaryButtonWhite{
 
 .HeroSection{
   width: 94%;
+  position: relative;
   margin: 0 auto;
   max-width: 990px;
   border-radius: 10px;
@@ -297,6 +329,30 @@ a.PrimaryButtonWhite{
   margin-bottom: 100px;
 }
 
+@media only screen and (max-width: 460px){
+  .HeroSection{
+    padding: 20px;
+  }
+  .HeroSection h2{
+    font-size: 36px;
+  }
+  .HeroSection p{
+    font-size: 14px;
+  }
+  .HeroSection .Content{
+    width: 100% !important;
+    padding: 20px 0px !important;
+  }
+  .HeroSection img{
+    height: 200px;
+  }
+}
+.HeroSection img{
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
+
+}
 
 .HeroSection .TestifierName{
   font-weight: bold;
@@ -310,6 +366,7 @@ a.PrimaryButtonWhite{
   width: 60%;
   max-width: 414px;
   color: white;
+  padding: 80px 0px;
 }
 
 .HeroSection.ThriveAgric{
@@ -331,8 +388,8 @@ a.PrimaryButtonWhite{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .StoryContent{
@@ -357,4 +414,11 @@ a.PrimaryButtonWhite{
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+.CaseStudies .TestimonialCard{
+  margin: 15px 0px;
+}
+.CaseStudies .TestimonialCard img{
+  right: 4%;
 }

@@ -12,9 +12,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="HeroSectionMain container">
+      <img className="HeroImage" src={require('../images/Lens1.png')}/>
       <div className="HeroCopy">
         <h1>The “expert talent” hiring process that won’t stress you.</h1>
-        <p>Gigson helps you hire top performing developers that are 100% driven to helping your business grow.</p>
+        <p>All you need to do is create your job post and we'll send you top performing developers that are 100% driven to helping your business grow.</p>
       </div>
       <div className="HeroCard">
         <div className="Testimony">
@@ -24,15 +25,15 @@ const IndexPage = () => (
           <p>DARE <span>- CTO, Swipemax </span></p>
         </div>
         </div>
-        <a href="#" className="PrimaryButton">Get Started</a>
+        <a href="https://gigson.typeform.com/to/I1Pw5Y" className="PrimaryButton">Create your job post</a>
 
 
       </div>
     </div>
     <div className="Comparison">
       <div className="OldWay Way">
-        <p className="title">(Traditional Way)</p>
-        <h2> Usually, you would; </h2>
+        <p className="title">Usually, you would use the</p>
+        <h2> Traditional way</h2>
         <div className="BubbleList">
           <TextBubble 
             emoji={require('../images/hashtag.png')}
@@ -68,8 +69,8 @@ const IndexPage = () => (
       </div>
 
       <div className="NewWay Way">
-        <p className="title">(Gigson Way)</p>
-        <h2> But now;</h2>
+        <p className="title">But now with the</p>
+        <h2> Gigson Way</h2>
         <div className="BubbleList">
         <TextBubble 
             emoji={require('../images/cool.png')}
@@ -88,22 +89,23 @@ const IndexPage = () => (
             text="Longest its taken so far is 3 weeks"
           />
         </div>
-        <a href="#"className="PrimaryButton">Get Started</a>
+        <a href="https://gigson.typeform.com/to/I1Pw5Y"className="PrimaryButton">Give it a shot <img src={require('../images/wink.png')}/></a>
       </div>
     </div>
 
     <div id="Testimonials" className="Testimonials">
       <h2>Better Candidates, Better Results, Shorter Time.</h2>
       <div className="TestimonialContainer">
-      <Testimonial
-        story="Enabling Agriculture with qualified hands."
-        TestifierName="Ayo"
-        Position="CTO"
-        Company="Thrive Agric"
-        image={require('../images/Testifier-3.png')}
-        destination="/ThriveAgric"
-        />
-
+      
+        <Testimonial
+          story="Enabling Agriculture with qualified hands."
+          TestifierName="Ayo"
+          Position="CTO"
+          Company="Thrive Agric"
+          image={require('../images/Testifier-3.png')}
+          destination="/ThriveAgric" />
+    
+      
         <Testimonial
         story="Schoolable ramps up their tech team with Gigson."
         TestifierName="Henry"
@@ -112,7 +114,8 @@ const IndexPage = () => (
         image={require('../images/Testifier-2.png')}
         destination="/Scholable"
         />
-
+     
+    
         <Testimonial
         story="Getting the best fit developers."
         TestifierName="Dare"
@@ -121,6 +124,7 @@ const IndexPage = () => (
         image={require('../images/Testifier-1.png')}
         destination="/Swipemax"
         />
+      
     
 
       </div>
@@ -133,30 +137,30 @@ const IndexPage = () => (
           <div className="HelpMeasure">
             <img/>
             <h4>Save time and money</h4>
-            <p>Whether you are a Startup or Enterprise looking to fill a role, Gigson offers talent acquisition support from start to finish.</p>
+            <p>Whether you are a Startup or Enterprise looking to fill a role, Gigson offers quick and easy talent acquisition support from start to finish.</p>
           </div>
 
            <div className="HelpMeasure">
             <img/>
             <h4>6000+ tech talent</h4>
-            <p>On short term projects, we can help hire tech talents to supplement your internal team while you still retain control of the development.</p>
+            <p>We have a community of tech talents to supplement your internal team while you still retain control of the development.</p>
           </div>
 
            <div className="HelpMeasure">
             <img/>
             <h4>Turnaround in 3 days</h4>
-            <p>We help companies that promote flexibility to hire from our pool of carefully selected remote tech talents. that deliver outstanding work.</p>
+            <p>We deliver talent choices from our carefully selected pool within a really short turnaround time.</p>
           </div>
 
         </div>
       </div>
      </div> 
 
-     <div className="SubFooter">
+      <div className="SubFooter">
       <div className="SmallContainer">
-        <p>Ready to get started?</p>
+        <p>Give it a shot</p>
         <h2>Lets connect you to qualified tech talents that deliver on your business objectives.</h2>
-        <a className="PrimaryButtonWhite" href="#">I'm Interested</a>
+        <a className="PrimaryButtonWhite" href="https://gigson.typeform.com/to/I1Pw5Y">Create your job post</a>
       </div>
      </div>
 

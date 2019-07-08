@@ -59,9 +59,9 @@ const ThriveAgric = () => (
     </div>
     <div className="SubFooter">
       <div className="SmallContainer">
-        <p>Ready to get started?</p>
+        <p>Give it a shot</p>
         <h2>Lets connect you to qualified tech talents that deliver on your business objectives.</h2>
-        <a className="PrimaryButtonWhite" href="#">I'm Interested</a>
+        <a className="PrimaryButtonWhite" href="https://gigson.typeform.com/to/I1Pw5Y">Create your job post</a>
       </div>
      </div>
 
