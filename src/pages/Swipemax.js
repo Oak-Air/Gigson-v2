@@ -12,7 +12,7 @@ const Swipemax = () => (
     <SEO title="Hiring for Swipemax" />
     <div className="HeroSection Swipemax Container">
     	<div className="Content">
-    		<h2>“The process was very responsive and smooth. Our hiring process that would normally take 6 months was done in 2 -- the commitment was unparalled.”</h2>
+    		<h2>“The process was very responsive and smooth. Our hiring process that would normally take 6 weeks was done in 2 -- the commitment was unparalled.”</h2>
     		<div className="TestifierDetails">
     			<p className="TestifierName">DAMILARE</p>
     			<p className="TestifierPosition">CTO, Swipemax</p>

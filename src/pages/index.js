@@ -16,16 +16,17 @@ const IndexPage = () => (
       <div className="HeroCopy">
         <h1>The “expert talent” hiring process that won’t stress you.</h1>
         <p>All you need to do is create your job post and we'll send you top performing developers that are 100% driven to helping your business grow.</p>
+        <a href="https://gigson.typeform.com/to/I1Pw5Y" className="PrimaryButton">Get Started</a>
       </div>
       <div className="HeroCard">
         <div className="Testimony">
         <img alt="Dare's Image" src={require('../images/Dare-avatar-small.png')}/>
         <div className="TestimonyCopy">
-          <h4>Gigson helped us cut down our usual talent hire time by half the time it used to take and we got better than was expected.</h4>
+          <h4>“Gigson cut down our usual talent hire time from 6 weeks to just 2 weeks and the only problem we had was which developer to pick.”</h4>
           <p>DARE <span>- CTO, Swipemax </span></p>
         </div>
         </div>
-        <a href="https://gigson.typeform.com/to/I1Pw5Y" className="PrimaryButton">Create your job post</a>
+        
 
 
       </div>

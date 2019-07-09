@@ -48,12 +48,18 @@ h4{
 }
 .HeroImage{
   position: absolute;
-  right: 0%;
-  top: -25%;
+  right: 0px;
+  top: -5%;
   z-index: -1;
 }
 .HeroCopy{
   max-width: 600px;
+  padding-bottom: 150px;
+}
+@media only screen and (max-width: 460px){
+  .HeroCopy{
+    padding-bottom: 50px;
+  }
 }
 
 .HeroCopy h1{
@@ -65,7 +71,7 @@ h4{
   line-height: 160%;
   max-width: 520px;
   color: #718AA8;
-  margin-bottom: 2em;
+  margin-bottom: 1.4em;
 }
 
 .HeroCard{
@@ -73,11 +79,11 @@ h4{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding: 30px 45px;
+  padding: 40px 45px;
   border-radius: 10px;
   box-shadow: 0px 14px 24px rgba(188, 188, 188, 0.25);
   background: url('../images/blue-background.png');
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 90%;
@@ -91,13 +97,13 @@ h4{
   flex-wrap: wrap;
   justify-content: left;
   align-items: flex-start;
-  width: 70%;
+  width: 100%;
 }
 
 .TestimonyCopy{
   letter-spacing: 0.03em;
   font-weight: bold;
-  max-width: 440px;
+  max-width: 720px;
 }
 
 .TestimonyCopy p{
@@ -116,9 +122,10 @@ h4{
 
 a.PrimaryButton{
   color: white;
+  display: inline-block;
   text-decoration: none;
   background: #268DFE;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
   padding: 23px 48px;
   box-shadow: 0px 10px 14px rgba(77, 162, 254, 0.16);
   border-radius: 50px;
